@@ -1,0 +1,217 @@
+:root {
+  --mainColorPage: #d8e6d6de;
+  --secondaryColorPage: #859b82aa;
+  --navBarColor: #71846f;
+}
+
+::selection {
+  background-color: rgb(200, 200, 200);
+}
+
+.bgMain {
+  background-color: var(--mainColorPage);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.card-container {
+  position: relative;
+  transition: transform 0.1s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.03);
+}
+
+.card-link {
+  color: inherit;
+}
+
+.card-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.text-logo {
+  font-family: "Delicious Handrawn", cursive;
+}
+.products-font {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+/* Buttons */
+.deleteButton {
+  text-decoration: none;
+  margin-top: 1em;
+  padding: 0.3em;
+  border: 2px solid rgba(194, 120, 120, 0.822);
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  z-index: 1;
+  font-family: inherit;
+  color: rgba(194, 120, 120, 0.822);
+  transition: all 0.3s ease;
+}
+
+.deleteButton::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgba(194, 120, 120, 0.822);
+  display: block;
+  z-index: -1;
+}
+
+.deleteButton:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(194, 120, 120, 0.822);
+  z-index: -1;
+}
+
+.deleteButton:hover {
+  color: white;
+}
+.primaryButton {
+  text-decoration: none;
+  margin-top: 1em;
+  padding: 0.3em;
+  border: 2px solid var(--mainColorPage);
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  z-index: 1;
+  font-family: inherit;
+  color: var(--mainColorPage);
+  transition: all 0.3s ease;
+}
+
+.primaryButton::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: var(--mainColorPage);
+  display: block;
+  z-index: -1;
+}
+
+.primaryButton:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--mainColorPage);
+  z-index: -1;
+}
+
+.primaryButton:hover {
+  color: white;
+}
+.secondaryButton {
+  margin-top: 1em;
+  padding: 0.3em;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+  z-index: 1;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background-color: var(--mainColorPage);
+  color: #71846f;
+  border: 2px solid #71846f;
+}
+.secondaryButton:hover {
+  color: white;
+  background-color: #71846f;
+}
+
+.secondaryButton:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #71846f;
+}
+.secondaryButton::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: var(--mainColorPage);
+  z-index: -1;
+}
+
+/* Carouseles */
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  position: absolute;
+  top: 40%;
+  font-size: 24px;
+}
+.alice-carousel__next-btn {
+  transform: translateX(-2%);
+}
+.alice-carousel__prev-btn {
+  transform: translateX(102%);
+}
+.alice-carousel__dots-item {
+  background-color: #c5d2c3aa !important;
+}
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: var(--secondaryColorPage) !important;
+}
+
+.alice-carousel__stage-item {
+  padding: 25px !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.spinner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dropdownUser .nav-link {
+  color: white;
+}
+.dropdown-menu {
+  background-color: rgba(70, 75, 72, 0.913);
+  --bs-dropdown-link-active-bg: rgb(182, 207, 185);
+}
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: black;
+}

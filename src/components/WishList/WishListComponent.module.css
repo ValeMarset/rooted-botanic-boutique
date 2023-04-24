@@ -1,0 +1,18 @@
+#contenedor {
+  margin-top: 7rem;
+  min-height: 50vh;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.imgWish {
+  width: 30%;
+}
+@media screen and (max-width: 992px) {
+  .imgWish {
+    width: 55%;
+  }
+}

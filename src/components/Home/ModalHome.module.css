@@ -1,0 +1,18 @@
+.backgroundModalHome {
+  background-color: rgba(255, 255, 255, 0.84);
+  color: rgb(73, 81, 72);
+}
+.linkDashboard:hover {
+  color: rgb(238, 243, 235);
+}
+.linkDashboard {
+  color: rgb(94, 132, 94);
+}
+
+.imgProgramming {
+  width: 35%;
+}
+
+.imgDashboard {
+  width: 25%;
+}

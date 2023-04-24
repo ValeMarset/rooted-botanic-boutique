@@ -1,0 +1,22 @@
+.containerRegister {
+  background-color: rgba(6, 6, 6, 0.543);
+  padding: 2rem;
+  max-height: fit-content;
+  /* margin-top: 100px; */
+  height: 710px;
+  position: absolute;
+  top: 90px;
+  width: 27rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .containerRegister {
+    width: 24rem;
+  }
+}

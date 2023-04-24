@@ -1,0 +1,73 @@
+.bgNavbar {
+  background-color: rgba(12, 12, 12, 0.164);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bgNavbarScrolled {
+  background-color: var(--navBarColor);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbarBrand {
+  width: 60px;
+}
+
+.colorText {
+  color: white;
+}
+
+.colorText:hover,
+.navBarLinks:hover {
+  color: rgb(164, 179, 164);
+  text-decoration: underline;
+}
+
+.logoText {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 16px;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.25);
+  margin-left: 5px;
+}
+
+.navbarTogglerIcon {
+  color: #fff !important;
+}
+
+img:hover + .logoText {
+  opacity: 1;
+}
+
+.badgeCart {
+  left: 20px;
+  bottom: 20px;
+}
+
+.logout {
+  margin-right: 10px;
+}
+
+.imgUser {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 2px;
+  margin-right: 0.75rem;
+}
+
+.heart {
+  font-size: 25px;
+}
+
+.cart {
+  font-size: 25px;
+}
+
+@media (max-width: 992px) {
+  .badgeCart {
+    left: 15px;
+    bottom: 20px;
+  }
+  .bgNavbarMobile {
+    background-color: var(--navBarColor);
+  }
+}

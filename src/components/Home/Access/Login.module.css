@@ -1,0 +1,9 @@
+.sizelogin {
+  padding: 2rem;
+  width: 22rem;
+}
+.contenedorLogin {
+  background-color: rgba(6, 6, 6, 0.543);
+  position: absolute;
+  top: 7rem;
+}

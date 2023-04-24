@@ -1,0 +1,6 @@
+#contenedor {
+  margin-top: 5rem;
+}
+.colorIcons {
+  color: var(--navBarColor);
+}

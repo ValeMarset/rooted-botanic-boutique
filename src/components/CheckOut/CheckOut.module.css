@@ -1,0 +1,17 @@
+.sectionCheckout {
+  margin-top: 72px;
+}
+
+.colorIcons {
+  color: var(--navBarColor);
+}
+
+.containerQuantity {
+  width: 5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

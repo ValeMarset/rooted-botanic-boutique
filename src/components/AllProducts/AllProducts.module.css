@@ -1,0 +1,79 @@
+.textcard {
+  height: 10rem;
+}
+.cardProductImg {
+  max-height: 72%;
+  object-fit: cover;
+}
+
+.heart {
+  position: absolutrelative;
+}
+.customShape {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: -40px;
+}
+
+.customShape svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.customShapeFill {
+  fill: #faf6f3;
+}
+.cardTitle {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+.bgProducts {
+  background-color: #d8e6d6aa;
+  padding-top: 120px;
+}
+
+.cardStyle {
+  width: 23rem;
+  height: 35rem;
+}
+
+.cardName {
+  height: 2rem;
+}
+
+.filteredCard {
+  filter: grayscale(100%);
+}
+
+.categories {
+  color: black;
+}
+
+.categories:hover {
+  color: black;
+}
+
+.heart {
+  font-size: 24px;
+}
+
+.heartLiked {
+  font-size: 20px;
+  color: #4ec02b;
+  padding-top: 3px;
+  padding-right: 2px;
+}
+
+.heart:hover {
+  color: #4ec02b;
+}
+
+.searchBar {
+  width: 25rem;
+}

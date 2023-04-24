@@ -1,0 +1,58 @@
+#trendingname {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardStyle {
+  width: 19rem;
+  border: none;
+}
+.cardProductImg {
+  height: 320px;
+  object-fit: cover;
+}
+
+.customShape {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: -40px;
+}
+
+.customShape svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.customShapeFill {
+  fill: #faf6f3;
+}
+
+.arrowCarousel {
+  color: var(--secondaryColorPage);
+}
+
+.heart {
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.heartLiked {
+  font-size: 20px;
+  color: #4ec02b;
+  padding-top: 3px;
+  padding-right: 12px;
+}
+
+.heart:hover {
+  color: #4ec02b;
+}
+
+.filteredCard {
+  filter: grayscale(100%);
+}

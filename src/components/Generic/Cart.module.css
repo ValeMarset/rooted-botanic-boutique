@@ -1,0 +1,16 @@
+.cartEmpty {
+  border: 1.5px dashed #bbb8b8;
+}
+
+.colorIcons {
+  color: var(--navBarColor);
+}
+
+.containerQuantity {
+  width: 5rem;
+}
+
+.imgCart {
+  height: 90px;
+  object-fit: cover;
+}

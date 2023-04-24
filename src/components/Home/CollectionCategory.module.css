@@ -1,0 +1,15 @@
+.imgCollectionCategory {
+  height: 27rem;
+}
+
+.arrowCarousel {
+  color: var(--secondaryColorPage);
+}
+
+.cardCollection {
+  width: 18rem;
+}
+
+.cardText {
+  height: 3.5rem;
+}

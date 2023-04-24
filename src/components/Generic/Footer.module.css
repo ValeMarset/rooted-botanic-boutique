@@ -1,0 +1,39 @@
+.footer {
+  height: 400px;
+  background-color: var(--mainColorPage);
+  box-shadow: 1px -8px 16px -2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px -8px 16px -2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px -8px 16px -2px rgba(0, 0, 0, 0.1);
+}
+
+.bgFooter {
+  background-color: var(--secondaryColorPage);
+}
+
+.footerLinks {
+  color: black;
+  text-decoration: none;
+}
+
+.footerLinks:hover {
+  color: rgb(90, 146, 93);
+  text-decoration: underline;
+}
+
+.footerIcons {
+  color: black;
+}
+
+.footerIcons:hover {
+  color: rgb(90, 146, 93);
+}
+
+.itemsRight {
+  align-items: end;
+}
+
+@media (max-width: 767.98px) {
+  .botanicB {
+    display: none;
+  }
+}

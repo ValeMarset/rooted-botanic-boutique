@@ -1,0 +1,13 @@
+#bgColor {
+  background-color: white;
+}
+
+.textServices {
+  padding: 0 60px 0 60px;
+}
+
+@media (max-width: 768px) {
+  .textServices {
+    padding: 0px 10px 0 10px;
+  }
+}

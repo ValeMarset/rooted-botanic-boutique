@@ -1,0 +1,29 @@
+.container {
+  background-color: #c5d2c3aa;
+  padding: 2rem;
+  max-height: fit-content;
+  width: 40rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.textSize {
+  text-align: center;
+}
+
+.imgPosition {
+  bottom: 6em;
+  width: 60%;
+}
+
+@media (max-width: 767.98px) {
+  .containerRegister {
+    width: 500px;
+  }
+}
+.imageSize {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
