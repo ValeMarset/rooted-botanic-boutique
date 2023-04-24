@@ -119,6 +119,7 @@ export default function ModalHome() {
               <h5 className="px-4">
                 To enter the{" "}
                 <Link
+                  target="_blanck"
                   to="https://rooted-panel-admin.vercel.app/"
                   className={`fw-semibold   ${styles.linkDashboard} `}
                 >
