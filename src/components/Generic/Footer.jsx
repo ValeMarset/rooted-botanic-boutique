@@ -107,7 +107,7 @@ export default function Footer() {
                     <li>
                       <Link
                         target="_blanck"
-                        to="https://rooted-botanic-boutique-admin.vercel.app/"
+                        to="https://rooted-panel-admin.vercel.app/"
                         className={`${styles.footerLinks}`}
                       >
                         {" "}

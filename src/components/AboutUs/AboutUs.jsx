@@ -43,7 +43,7 @@ export default function AboutUs() {
                 <Link
                   className={` ${styles.linkAdmin} `}
                   target="_blanck"
-                  to="https://rooted-botanic-boutique-admin.vercel.app/"
+                  to="https://rooted-panel-admin.vercel.app/"
                 >
                   admin site
                 </Link>
@@ -60,7 +60,7 @@ export default function AboutUs() {
                 <Link
                   className={` ${styles.linkAdmin} `}
                   target="_blanck"
-                  to="https://rooted-botanic-boutique-admin.vercel.app/"
+                  to="https://rooted-panel-admin.vercel.app/"
                 >
                   admin site
                 </Link>{" "}
