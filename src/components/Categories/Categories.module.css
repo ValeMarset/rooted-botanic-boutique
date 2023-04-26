@@ -75,5 +75,13 @@
 }
 
 .searchBar {
-  width: 100%;
+  width: 22rem;
+}
+
+
+@media (max-width: 992px) {
+  .searchBar {
+    width: 100%;
+  }
+  
 }
