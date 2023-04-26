@@ -203,7 +203,7 @@ export default function Products() {
                             className={`text-center mt-2 ${styles.cardName}`}
                           >
                             {product.summary.length > 30
-                              ? product.summary.slice(0, 50) + "..."
+                              ? product.summary.slice(0, 40) + "..."
                               : product.summary}
                             <span className="d-block text-center fw-semibold mt-2">
                               USD {product.price}
