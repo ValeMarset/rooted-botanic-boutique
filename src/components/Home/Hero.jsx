@@ -30,18 +30,20 @@ export default function Hero() {
             <p className={` mb-5  ${styles.heroImgText}`}>
               Turn your home into a garden
             </p>
-            <Link
+         <div className={` ${styles.heroButtons} `}>
+         <Link
               to="/categories"
-              className="mt-0 me-4 mb-3 mb-lg-0 p-2 secondaryButton text-decoration-none"
+              className={`mt-0 me-4 mb-3 mb-lg-0 p-2 secondaryButton text-decoration-none `}
             >
               Our Products
             </Link>
             <Link
               to="/about-us"
-              className="mt-0 me-4 mb-3 mb-lg-0 py-2 primaryButton"
+              className={`mt-0 me-4 mb-3 mb-lg-0 py-2 primaryButton `}
             >
               About This Project
             </Link>
+         </div>
           </div>
           <div
             className={`col-12 col-lg-4 col-md-7 d-flex justify-content-center ${
