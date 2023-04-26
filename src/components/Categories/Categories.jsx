@@ -113,9 +113,9 @@ export default function Products() {
       <div className={styles.bgProducts}>
         <div className="container">
           <div className={`${styles.searchBar} d-flex align-items-baseline `}>
-            <i className="bi bi-search h5 ms-4 px-2"></i>
+            <i className="bi bi-search h5  px-2"></i>
             <input
-              className="mb-4 form-control ms-3"
+              className="mb-5 form-control"
               type="search"
               placeholder="Alocasia Reginula ..."
               onChange={handleChange}
