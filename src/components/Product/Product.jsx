@@ -172,7 +172,7 @@ export default function Product() {
                     Stock: {product.stock}
                     {product.stock > 1 ? ` units` : ` unit`}
                   </p>
-                  <p>About this plant: {product.description}</p>
+                  <p><span>About this plant:</span> <br /> {product.description}</p>
                   <p>Upkeep: {product.upkeep}</p>
 
                   <div className="d-flex align-items-center mt-5 mb-5 pb-5 pb-lg-0">
